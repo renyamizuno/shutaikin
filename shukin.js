@@ -18,8 +18,6 @@ const config = require('./config.json');
   await atkWorkFrame.waitForSelector('#btnStInput.pw_base.pw_btnnst');
   await atkWorkFrame.click('#btnStInput');
 
-  await page.screenshot({path: 'test.png', fullPage: true})
-
   await browser.close();
 })();
 
