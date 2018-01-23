@@ -16,7 +16,8 @@ const config = require('./config.json');
   const atkWorkFrame = frames.find(f => f.url().includes('AtkWorkComponent'));
 
   await atkWorkFrame.waitForSelector('#btnStInput.pw_base.pw_btnnst');
-  await atkWorkFrame.click('#btnStInput');
+  const btn = await atkWorkFrame.$('#btnStInput');
+  await btn.click({button: 'middle'});
 
   await browser.close();
 })();
