@@ -5,6 +5,10 @@
   "repository": "git@github.com:renyamizuno/shutaikin.git",
   "author": "RenyaMizuno <renyamizuno@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "shukin": "node shukin.js",
+    "taikin": "node taikin.js"
+  },
   "dependencies": {
     "puppeteer": "^1.0.0"
   }
