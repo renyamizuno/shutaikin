@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:renyamizuno/shutaikin.git",
   "author": "RenyaMizuno <renyamizuno@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  }
 }
